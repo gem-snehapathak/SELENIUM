@@ -12,7 +12,7 @@ public class MultiselectDd {
     public static void main(String[] args) throws InterruptedException {
         WebDriverManager.chromedriver().setup();
         ChromeDriver driver = new ChromeDriver();
-        driver.get(" ");
+        driver.get("");
         driver.manage().window().maximize();
 
         WebElement ddown = driver.findElement(By.id(""));
