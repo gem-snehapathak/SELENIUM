@@ -17,7 +17,7 @@ public class WebelementMethods {
         System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[2]")).getCssValue("font-family"));
         System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[2]")).getSize());
         System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[2]")).getLocation());
-        System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[2]")).getText());
+        System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[4]/div/div/a[1]")).getText());
         System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[2]")).getTagName());
         System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[2]")).isDisplayed());
         System.out.println(driver.findElement(By.xpath("/html/body/div[1]/div[3]/form/div[1]/div[1]/div[4]/center/input[2]")).isEnabled());
