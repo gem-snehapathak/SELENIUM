@@ -1,4 +1,4 @@
-package org.example;//1. XPath Axes navigate through elements in the XML structure of a webpage. They allow you to locate elements
+package assignment;//1. XPath Axes navigate through elements in the XML structure of a webpage. They allow you to locate elements
 //   based on their relationship with other elements, like parent, sibling, child, ancestor, or descendant.
 //2. XPath axes methods are crucial when creating XPaths, especially in scenarios where the structure of the XML or
 //   HTML document is complex, and elements have specific relationships with each other. Axes methods in XPath provide
