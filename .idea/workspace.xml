@@ -5,9 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/Q4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment2/dropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WebTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/printAllLinks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/WebelementMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/WebelementMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment/Q4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +61,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Q1" />
+    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment.Q4" />
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
@@ -71,12 +74,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignment.Q5" />
+    <configuration name="WebTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.WebTable" />
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment.*" />
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="dropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment2.dropdown" />
+      <module name="Maven1Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="printAllLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.printAllLinks" />
+      <module name="Maven1Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,9 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q5" />
+        <item itemvalue="Application.WebTable" />
+        <item itemvalue="Application.dropdown" />
+        <item itemvalue="Application.printAllLinks" />
+        <item itemvalue="Application.Q4" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Q1" />
       </list>
     </recent_temporary>
   </component>
