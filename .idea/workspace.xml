@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment2/dropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/WebTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/printAllLinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AutoSuggestiondropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HandlingCheckbox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Q4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment/Q4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,12 +46,12 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.Main" />
+    <configuration name="AutoSuggestiondropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.AutoSuggestiondropdown" />
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +59,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignment.Q4" />
+    <configuration name="HandlingCheckbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.HandlingCheckbox" />
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="assignment.*" />
+          <option name="PATTERN" value="org.example.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HandlingCheckbox" />
+        <item itemvalue="Application.AutoSuggestiondropdown" />
         <item itemvalue="Application.WebTable" />
         <item itemvalue="Application.dropdown" />
         <item itemvalue="Application.printAllLinks" />
-        <item itemvalue="Application.Q4" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
