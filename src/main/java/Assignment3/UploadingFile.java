@@ -9,9 +9,8 @@ public class UploadingFile {
     public static void main(String[] args) {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
-        driver.get("https://www.ilovepdf.com/word_to_pdf");
+        driver.get("https://smallseotools.com/plagiarism-checker/");
         driver.manage().window().maximize();
-        driver.findElement(By.xpath("/html/body/div[1]/div[1]/div[1]/div[4]/a/span")).sendKeys("C:\\Users\\sneha.pathak\\Documents\\GIT Assignment 1.docx");
-        driver.quit();
+        driver.findElement(By.xpath("//*[@id=\"fileUpload\"]")).sendKeys("C:\\Users\\sneha.pathak\\Documents\\GIT Assignment 2.docx");
     }
 }

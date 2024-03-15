@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment3/UploadingFile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment3/keyboardEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DragandDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/KeyboardEvents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MouseHover.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Resize.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RightClick.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Slider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DownloadingFile.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/First.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment3/UploadingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment3/UploadingFile.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
