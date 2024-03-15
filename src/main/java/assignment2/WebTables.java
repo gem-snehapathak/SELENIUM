@@ -23,7 +23,6 @@ public class WebTables {
 
                 Set<String> uniqueRows = new HashSet<>();
 
-
                 for (WebElement row : rows) {
                     List<WebElement> cells = row.findElements(By.tagName("td"));
                     StringBuilder rowData = new StringBuilder();
@@ -32,12 +31,9 @@ public class WebTables {
                     }
                     uniqueRows.add(rowData.toString());
                 }
-
-
                 for (String row : uniqueRows) {
                     System.out.println(row);
                 }
-
 
 //                driver.quit();
             }

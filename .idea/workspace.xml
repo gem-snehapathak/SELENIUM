@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/AutoSuggestiondropdown.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/HandlingCheckbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment3/UploadingFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Assignment3/keyboardEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DragandDrop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/KeyboardEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MouseHover.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Resize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/RightClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Slider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/First.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,8 +53,8 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="AutoSuggestiondropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.AutoSuggestiondropdown" />
+    <configuration name="DragandDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.DragandDrop" />
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
@@ -72,8 +79,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WebTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.WebTable" />
+    <configuration name="MouseHover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.MouseHover" />
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
@@ -85,21 +92,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="dropdown" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="assignment2.dropdown" />
-      <module name="Maven1Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="assignment2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="printAllLinks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.printAllLinks" />
+    <configuration name="Resize" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.Resize" />
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
@@ -107,17 +101,33 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="org.example" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Maven1Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example" />
+      <option name="TEST_OBJECT" value="PACKAGE" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DragandDrop" />
+        <item itemvalue="Application.Resize" />
+        <item itemvalue="TestNG.org.example" />
+        <item itemvalue="Application.MouseHover" />
         <item itemvalue="Application.HandlingCheckbox" />
-        <item itemvalue="Application.AutoSuggestiondropdown" />
-        <item itemvalue="Application.WebTable" />
-        <item itemvalue="Application.dropdown" />
-        <item itemvalue="Application.printAllLinks" />
       </list>
     </recent_temporary>
   </component>
