@@ -14,6 +14,8 @@ public class iFrames {
         driver.findElement(By.xpath("//a[text()='Iframe with in an Iframe']")).click();
         WebElement frame =driver.findElement(By.xpath("/html/body/section/div/div/iframe"));
         driver.switchTo().frame(frame);
+        WebElement frame1 =driver.findElement(By.xpath("/html/body/section/div/div"));
+        driver.switchTo().frame(frame1);
         driver.findElement(By.xpath("/html/body/section/div/div/div/input")).sendKeys("sneha");
 //        driver.findElement(By.xpath(""))
     }
