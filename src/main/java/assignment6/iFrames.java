@@ -12,9 +12,9 @@ public class iFrames {
         driver.get("http://demo.automationtesting.in/Frames.html");
         driver.manage().window().maximize();
         driver.findElement(By.xpath("//a[text()='Iframe with in an Iframe']")).click();
-        WebElement frame =driver.findElement(By.xpath("/html/body/section/div/div/iframe"));
+        WebElement frame =driver.findElement(By.xpath("//*[@id=\"Multiple\"]/iframe"));
         driver.switchTo().frame(frame);
-        WebElement frame1 =driver.findElement(By.xpath("/html/body/section/div/div"));
+        WebElement frame1 =driver.findElement(By.xpath("/html/body/section/div/div/iframe"));
         driver.switchTo().frame(frame1);
         driver.findElement(By.xpath("/html/body/section/div/div/div/input")).sendKeys("sneha");
 //        driver.findElement(By.xpath(""))

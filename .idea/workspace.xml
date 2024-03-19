@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/explicitWait.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/implicitWait.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment5/webTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assignment6/iFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment6/iFrames.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fluentWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fluentWait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,19 +59,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HandlingCheckbox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.HandlingCheckbox" />
-      <module name="Maven1Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MouseHover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.MouseHover" />
       <module name="Maven1Project" />
@@ -98,6 +85,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="iFrames" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment6.iFrames" />
+      <module name="Maven1Project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="org.example" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Maven1Project" />
       <extension name="coverage">
@@ -116,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.iFrames" />
         <item itemvalue="Application.MouseHover" />
         <item itemvalue="Application.DragandDrop" />
         <item itemvalue="Application.Resize" />
         <item itemvalue="TestNG.org.example" />
-        <item itemvalue="Application.HandlingCheckbox" />
       </list>
     </recent_temporary>
   </component>
@@ -145,5 +145,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Maven1Project$iFrames.ic" NAME="iFrames Coverage Results" MODIFIED="1710840478357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>assignment6.*</FILTER>
+    </SUITE>
   </component>
 </project>
