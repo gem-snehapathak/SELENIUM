@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment5/webTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment5/webTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment5/webTables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assignment6/iFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment6/iFrames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/fluentWait.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/fluentWait.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

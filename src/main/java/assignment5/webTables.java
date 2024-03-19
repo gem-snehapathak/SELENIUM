@@ -1,10 +1,10 @@
 package assignment5;
-
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
+import java.sql.SQLOutput;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
@@ -21,12 +21,9 @@ public class webTables {
         System.out.println(rowelements.size());
         int rowsize = rowelements.size();
 
-
         List<WebElement> columnelements = driver.findElements(By.xpath("//*[@id='customers']/tbody/tr[2]/td"));
         System.out.println(columnelements.size());
         int colsize = columnelements.size();
-
-
 
         for(int i=1;i<rowsize;i++){
             for(int j=1;j<=colsize;j++){
@@ -34,7 +31,6 @@ public class webTables {
             }
             System.out.println();
         }
-
 
         driver.quit();
 
