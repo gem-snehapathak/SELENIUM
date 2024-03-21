@@ -23,6 +23,7 @@ public class webTables {
         System.out.println(columnelements.size());
         int colsize = columnelements.size();
 
+//column-wise
         for(int j=1 ; j< 4; j++){
         for(int i=1;i<rowsize;i++) {
             System.out.print(webElement("//*[@id='customers']/tbody/tr[" + (i + 1) + "]/td["+j+"]").getText());
@@ -30,16 +31,13 @@ public class webTables {
                             System.out.println();
         }
 
-
-
-
+//row-wise
         for(int i=1;i<rowsize;i++){
             for(int j=1;j<=colsize;j++){
                 System.out.print(webElement("//*[@id='customers']/tbody/tr["+ (i+1) +"]/td["+ j +"]").getText());
             }
             System.out.println();
         }
-
 
 
     }

@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment5/bing.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assignment5/webTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment5/webTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locators/LocatorSvg.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorSvg.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +52,7 @@
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="assignment5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +65,7 @@
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="assignment5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -76,7 +78,7 @@
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="assignment5.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
