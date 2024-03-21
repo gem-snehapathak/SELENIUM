@@ -5,8 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment6/Iframes2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assgnMentor/myntra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/Amazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/AxesMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/DissapearingElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment/SvgElements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocKeyboardEvents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorAlerts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorAmazon.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorAxes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorDissapearing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorDropdown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorIframe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorIframe2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorMyntra.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorSvg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorTables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorUploading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorWebtables.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/utilityClass/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment3/UploadingFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment3/UploadingFile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Assignment3/keyboardEvents.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Assignment3/KeyboardEvents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Q2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Q3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Q4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment/Q5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment2/WebTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment2/dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment2/Dropdown.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment4/Alertsandpopups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment4/Alertsandpopups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment5/webTables.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment5/webTables.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment6/Iframes2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment6/Iframes2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment6/iFrames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assignment6/iFrames.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +62,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/sneha.pathak/IdeaProjects/Maven1Project",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sneha.pathak/IdeaProjects/Maven1Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="DragandDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DragandDrop" />
