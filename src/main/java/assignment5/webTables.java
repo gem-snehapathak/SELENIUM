@@ -15,13 +15,23 @@ public class webTables {
         Driver.setup("https://www.techlistic.com/2017/02/automate-demo-web-table-with-selenium.html");
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
-        List<WebElement> rowelements = (List<WebElement>) webElement(LocatorTables.Rows);
+        List<WebElement> rowelements = driver.findElements(By.xpath(LocatorTables.Rows));
         System.out.println(rowelements.size());
         int rowsize = rowelements.size();
 
-        List<WebElement> columnelements = (List<WebElement>) webElement(LocatorTables.Column);
+        List<WebElement> columnelements = driver.findElements(By.xpath(LocatorTables.Column));
         System.out.println(columnelements.size());
         int colsize = columnelements.size();
+
+        for(int j=1 ; j< 4; j++){
+        for(int i=1;i<rowsize;i++) {
+            System.out.print(webElement("//*[@id='customers']/tbody/tr[" + (i + 1) + "]/td["+j+"]").getText());
+        }
+                            System.out.println();
+        }
+
+
+
 
         for(int i=1;i<rowsize;i++){
             for(int j=1;j<=colsize;j++){
