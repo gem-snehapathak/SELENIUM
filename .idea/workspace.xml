@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/assignment7/cucumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/TestData.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assgnMentor/myntra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assgnMentor/myntra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/locators/LocatorMyntra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorMyntra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +44,7 @@
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginTest">
+  <component name="RunManager">
     <configuration name="DragandDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DragandDrop" />
       <module name="Maven1Project" />

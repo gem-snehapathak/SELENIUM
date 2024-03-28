@@ -6,7 +6,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilityClass.Driver;
 
-import java.io.File;
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -22,16 +21,16 @@ public class myntra {
             Driver.setup("https://www.myntra.com/");
             webElement(LocatorMyntra.TextBox).sendKeys("Dresses for Women");
             webElement(LocatorMyntra.SearchIcon).click();
-            By brand=By.xpath("//ul[@class='results-base']//div/h3");
+            webElement(LocatorMyntra.Brand);
             By articleName=By.xpath("//*[@id='desktopSearchResults']//h4[@class='product-product']");
-            By price=By.xpath("//ul[@class='results-base']//div/span/span[@class='product-discountedPrice']");
+            webElement(LocatorMyntra.Price);
 
 
 
             Map<String, List<String>> hashMap=new HashMap<>();
-            List<WebElement> brandNames=driver.findElements(brand);
+            List<WebElement> brandNames=driver.findElements(By.xpath(LocatorMyntra.Brand));
 //            List<WebElement> articles=driver.findElements(articleName);
-            List<WebElement> prices=driver.findElements(price);
+            List<WebElement> prices=driver.findElements(By.xpath(LocatorMyntra.Price));
 
 
 
