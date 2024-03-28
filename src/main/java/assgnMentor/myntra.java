@@ -10,8 +10,6 @@ import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
 import static utilityClass.Driver.driver;
 import static utilityClass.Driver.webElement;
 
@@ -22,26 +20,38 @@ public class myntra {
             webElement(LocatorMyntra.TextBox).sendKeys("Dresses for Women");
             webElement(LocatorMyntra.SearchIcon).click();
             webElement(LocatorMyntra.Brand);
-            By articleName=By.xpath("//*[@id='desktopSearchResults']//h4[@class='product-product']");
+            webElement(LocatorMyntra.ArticleName);
             webElement(LocatorMyntra.Price);
 
 
 
-            Map<String, List<String>> hashMap=new HashMap<>();
-            List<WebElement> brandNames=driver.findElements(By.xpath(LocatorMyntra.Brand));
-//            List<WebElement> articles=driver.findElements(articleName);
-            List<WebElement> prices=driver.findElements(By.xpath(LocatorMyntra.Price));
+            HashMap<String, List<HashMap<String, String> >> hashMap=new HashMap<>();
+            List<WebElement> brandNames= new ArrayList<>(driver.findElements(By.xpath(LocatorMyntra.Brand)));
+            List<WebElement> articles= new ArrayList<>(driver.findElements(By.xpath(LocatorMyntra.ArticleName)));
+            List<WebElement> prices= new ArrayList<>(driver.findElements(By.xpath(LocatorMyntra.Price)));
 
 
-
-            for(int index=0;index<prices.size();index++){
+            int indprice = 0;
+            for(int index=0;index<brandNames.size();index++){
                 if(!brandNames.get(index).getText().equals("")){
-                    List<String> priceList=hashMap.getOrDefault(brandNames.get(index).getText(),new ArrayList<>());
-                    priceList.add(prices.get(index).getText());
-                    hashMap.put(brandNames.get(index).getText(),priceList);
+                    String brand = brandNames.get(index).getText();
+                    String articleName = articles.get(index).getText();
+                    String price = "";
+                    if(indprice < 46)
+                        price = prices.get(indprice++).getText();
+
+                    HashMap<String, String>desc = new HashMap<>();
+                    desc.put("ArticleName", articleName);
+                    desc.put("Price", price);
+
+                    if (!hashMap.containsKey(brand)) {
+                        hashMap.put(brand, new ArrayList<>());
+
+                    }
+                    hashMap.get(brand).add(desc);
+
                 }
             }
-//            driver.findElement(By.xpath("//a[@rel='next']")).click();
 
             JSONObject jsonObject=new JSONObject(hashMap);
             FileWriter file=new FileWriter("src/main/resources/TestData.json");

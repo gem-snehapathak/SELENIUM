@@ -9,4 +9,6 @@ public class LocatorMyntra {
 
     public static String Price ="//ul[@class='results-base']//div/span/span[@class='product-discountedPrice']";
 
+    public static String ArticleName = "//*[@id='desktopSearchResults']//h4[@class='product-product']";
+
 }

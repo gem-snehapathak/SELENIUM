@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assgnMentor/myntra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assgnMentor/myntra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/locators/LocatorMyntra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorMyntra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/TestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestData.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,9 +119,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DragandDrop" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.logintest" />
-        <item itemvalue="Application.DragandDrop" />
         <item itemvalue="Application.iFrames" />
         <item itemvalue="Application.MouseHover" />
       </list>

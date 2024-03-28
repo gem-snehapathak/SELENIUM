@@ -1,19 +1,246 @@
-{"True Shape":["Rs. 750","Rs. 1197","Rs. 1299","Rs. 883","Rs. 951","Rs. 753"],
-  "PEACH PIPER":["Rs. 799"],
-  "ROOPWATI FASHION":["Rs. 1249"],
-  "DUMMY SHAPE":["Rs. 999","Rs. 701","Rs. 798"],
-  "max":["Rs. 1199"],
-  "AASK":["Rs. 999","Rs. 1023","Rs. 798","Rs. 909"],
-  "SASSAFRAS":["Rs. 923"],
-  "Rang by Indya":["Rs. 1271"],
-  "Sangria":["Rs. 999","Rs. 1159","Rs. 999","Rs. 1399","Rs. 739","Rs. 863","Rs. 951","Rs. 1409"],
-  "NABIA":["Rs. 849","Rs. 620","Rs. 883","Rs. 849"],
-  "H&M":["Rs. 1349","Rs. 1271"],
-  "TREND ME":["Rs. 839","Rs. 755"],
-  "PINACOLADA":["Rs. 1399"],
-  "StyleCast":["Rs. 1271","Rs. 998"],
-  "Femvy":["Rs. 799","Rs. 1199","Rs. 1299"],
-  "STATUS MANTRA":["Rs. 1299","Rs. 787","Rs. 1299","Rs. 899"],
-  "Fashion2wear":["Rs. 1271"],
-  "Puma":["Rs. 739"],
-  "Roadster":["Rs. 799"]}
+{
+  "True Shape": [
+    {
+      "Price": "Rs. 1199",
+      "ArticleName": "Printed Maternity Dresses"
+    },
+    {
+      "Price": "Rs. 1197",
+      "ArticleName": "Floral Maternity Dresses"
+    },
+    {
+      "Price": "Rs. 1299",
+      "ArticleName": "Printed Maternity Dresses"
+    },
+    {
+      "Price": "",
+      "ArticleName": "Pleated Maternity Dresses"
+    },
+    {
+      "Price": "",
+      "ArticleName": "Printed Maternity Dresses"
+    }
+  ],
+  "PEACH PIPER": [
+    {
+      "Price": "Rs. 750",
+      "ArticleName": "Fit & Flare Mini Dresses"
+    }
+  ],
+  "ROOPWATI FASHION": [
+    {
+      "Price": "Rs. 1249",
+      "ArticleName": "Cotton Maternity Dresses"
+    }
+  ],
+  "DUMMY SHAPE": [
+    {
+      "Price": "Rs. 999",
+      "ArticleName": "Maternity Fit & Flare Dresses"
+    },
+    {
+      "Price": "Rs. 701",
+      "ArticleName": "Maternity Fit & Flare Dresses"
+    },
+    {
+      "Price": "",
+      "ArticleName": "Maternity Fit & Flare Dresses"
+    }
+  ],
+  "max": [
+    {
+      "Price": "Rs. 1199",
+      "ArticleName": "Cotton Midi Shirt Dresses"
+    }
+  ],
+  "AASK": [
+    {
+      "Price": "Rs. 999",
+      "ArticleName": "Striped Fit and Flare Dresses"
+    },
+    {
+      "Price": "Rs. 1023",
+      "ArticleName": "Striped Fit and Flare Dresses"
+    },
+    {
+      "Price": "Rs. 798",
+      "ArticleName": "Striped Fit and Flare Dresses"
+    },
+    {
+      "Price": "Rs. 909",
+      "ArticleName": "Striped Fit and Flare Dresses"
+    }
+  ],
+  "Trendyol": [
+    {
+      "Price": "Rs. 1299",
+      "ArticleName": "Women Bodycon Dress"
+    }
+  ],
+  "SASSAFRAS": [
+    {
+      "Price": "Rs. 923",
+      "ArticleName": "V-Neck Mini Blazer Dresses"
+    }
+  ],
+  "Rang by Indya": [
+    {
+      "Price": "Rs. 1271",
+      "ArticleName": "Women Solid Dresses"
+    }
+  ],
+  "Sangria": [
+    {
+      "Price": "Rs. 869",
+      "ArticleName": "Self Design A-Line Dresses"
+    },
+    {
+      "Price": "Rs. 1049",
+      "ArticleName": "Floral Printed Dresses"
+    },
+    {
+      "Price": "Rs. 1159",
+      "ArticleName": "Striped A-Line Dresses"
+    },
+    {
+      "Price": "Rs. 999",
+      "ArticleName": "Printed Velvet Wrap Dresses"
+    },
+    {
+      "Price": "Rs. 974",
+      "ArticleName": "Floral Printed A-Line Dresses"
+    },
+    {
+      "Price": "Rs. 1399",
+      "ArticleName": "Striped A-Line Dresses"
+    },
+    {
+      "Price": "Rs. 863",
+      "ArticleName": "Striped A-Line Dresses"
+    },
+    {
+      "Price": "Rs. 951",
+      "ArticleName": "Floral Printed Dresses"
+    },
+    {
+      "Price": "Rs. 1409",
+      "ArticleName": "Striped A-Line Dresses"
+    }
+  ],
+  "NABIA": [
+    {
+      "Price": "Rs. 849",
+      "ArticleName": "Fit & Flared Midi Dresses"
+    },
+    {
+      "Price": "Rs. 1218",
+      "ArticleName": "Plus Size Printed Midi Dresses"
+    },
+    {
+      "Price": "Rs. 883",
+      "ArticleName": "Plus Size Printed Maxi Dresses"
+    },
+    {
+      "Price": "Rs. 1539",
+      "ArticleName": "Fit & Flare Maternity Dress"
+    }
+  ],
+  "H&M": [
+    {
+      "Price": "Rs. 1349",
+      "ArticleName": "Smoked Bodycon Dresses"
+    },
+    {
+      "Price": "Rs. 620",
+      "ArticleName": "Round Neck Sweatshirt Dresses"
+    }
+  ],
+  "TREND ME": [
+    {
+      "Price": "Rs. 839",
+      "ArticleName": "Printed Maxi Dresses"
+    },
+    {
+      "Price": "Rs. 755",
+      "ArticleName": "Printed Maxi Dresses"
+    }
+  ],
+  "PINACOLADA": [
+    {
+      "Price": "Rs. 1399",
+      "ArticleName": "Self Design Blazer Dresses"
+    }
+  ],
+  "StyleCast": [
+    {
+      "Price": "Rs. 1271",
+      "ArticleName": "Mini Blazer Dresses"
+    },
+    {
+      "Price": "Rs. 998",
+      "ArticleName": "Checked Blazer Dresses"
+    }
+  ],
+  "Femvy": [
+    {
+      "Price": "Rs. 799",
+      "ArticleName": "Fit & Flare Dresses"
+    },
+    {
+      "Price": "Rs. 1299",
+      "ArticleName": "Fit & Flare Dresses"
+    }
+  ],
+  "STATUS MANTRA": [
+    {
+      "Price": "Rs. 1299",
+      "ArticleName": "Pack Of 2 Cotton T-shirt Dress"
+    },
+    {
+      "Price": "Rs. 787",
+      "ArticleName": "Pack Of 2 T-shirt Dresses"
+    },
+    {
+      "Price": "Rs. 849",
+      "ArticleName": "Pack Of 2 Cotton T-shirt Dress"
+    },
+    {
+      "Price": "",
+      "ArticleName": "Pack Of 2 Cotton T-shirt Dress"
+    }
+  ],
+  "Fashion2wear": [
+    {
+      "Price": "Rs. 1271",
+      "ArticleName": "Floral Print Dresses"
+    }
+  ],
+  "Styli": [
+    {
+      "Price": "Rs. 999",
+      "ArticleName": "Empire Dress"
+    }
+  ],
+  "Athena": [
+    {
+      "Price": "Rs. 1271",
+      "ArticleName": "Solid Sheath Dress"
+    },
+    {
+      "Price": "Rs. 739",
+      "ArticleName": "Women Floral Dress"
+    }
+  ],
+  "Puma": [
+    {
+      "Price": "Rs. 739",
+      "ArticleName": "Ribbed Sheath Dresses"
+    }
+  ],
+  "Roadster": [
+    {
+      "Price": "Rs. 799",
+      "ArticleName": "Sleeveless Bodycon Dresses"
+    }
+  ]
+}
