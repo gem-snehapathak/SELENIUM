@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="18599439-9c6c-4448-8253-1f79edfdca9a" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment7/TestRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment7/def/Stepdef.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/assignment7/lgin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Login.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/LoginImplementation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/assgnMentor/myntra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/assgnMentor/myntra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/locators/LocatorMyntra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/locators/LocatorMyntra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/TestData.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/TestData.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/assignment7/cucumber.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,34 +39,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/sneha.pathak/IdeaProjects/Maven1Project&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/sneha.pathak/IdeaProjects/Maven1Project",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\sneha.pathak\IdeaProjects\Maven1Project\src\main\java\org\example" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Cucumber Java.Scenario: Home page default login">
     <configuration name="DragandDrop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.DragandDrop" />
-      <module name="Maven1Project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MouseHover" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.MouseHover" />
       <module name="Maven1Project" />
       <extension name="coverage">
         <pattern>
@@ -79,6 +76,26 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="assignment6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Home page default login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/java/assignment7/lgin.feature" />
+      <option name="GLUE" value="assignment7.def" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="Maven1Project" />
+      <option name="NAME_FILTER" value="^Home page default login$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Home page default login$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Home page default login" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Scenario: Home page default login" />
         <item itemvalue="Application.DragandDrop" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.LoginTest.logintest" />
         <item itemvalue="Application.iFrames" />
-        <item itemvalue="Application.MouseHover" />
       </list>
     </recent_temporary>
   </component>

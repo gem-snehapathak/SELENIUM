@@ -5,7 +5,6 @@ import org.json.simple.JSONObject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import utilityClass.Driver;
-
 import java.io.FileWriter;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,13 +22,10 @@ public class myntra {
             webElement(LocatorMyntra.ArticleName);
             webElement(LocatorMyntra.Price);
 
-
-
             HashMap<String, List<HashMap<String, String> >> hashMap=new HashMap<>();
             List<WebElement> brandNames= new ArrayList<>(driver.findElements(By.xpath(LocatorMyntra.Brand)));
             List<WebElement> articles= new ArrayList<>(driver.findElements(By.xpath(LocatorMyntra.ArticleName)));
             List<WebElement> prices= new ArrayList<>(driver.findElements(By.xpath(LocatorMyntra.Price)));
-
 
             int indprice = 0;
             for(int index=0;index<brandNames.size();index++){
@@ -52,7 +48,6 @@ public class myntra {
 
                 }
             }
-
             JSONObject jsonObject=new JSONObject(hashMap);
             FileWriter file=new FileWriter("src/main/resources/TestData.json");
             file.append(jsonObject.toJSONString());
@@ -62,7 +57,4 @@ public class myntra {
             System.out.println(e);
         }
         }
-
-
-
 }
